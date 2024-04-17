@@ -1,0 +1,2044 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Inicio",
+      "header": false
+    },
+    "page_1": {
+      "id": "page_1",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_1"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "Mapa",
+      "header": true,
+      "footer": false
+    },
+    "page_2": {
+      "id": "page_2",
+      "type": "FOLDER",
+      "label": "Enlaces",
+      "isVisible": true
+    },
+    "page_3": {
+      "id": "page_3",
+      "type": "LINK",
+      "label": "ArcGIS Online",
+      "linkUrl": "https://www.arcgis.com",
+      "isVisible": true,
+      "openTarget": "_blank"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "50%",
+            "right": "26.8%",
+            "top": "50%",
+            "bottom": "21.4%",
+            "width": "46.4%",
+            "height": "53.60%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false,
+              "height": {}
+            },
+            "vCenter": true,
+            "hCenter": true,
+            "heightMode": "fixed",
+            "aspectRatio": 0.72
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_1": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_2": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {
+            "left": "9.6%",
+            "right": "9.6%",
+            "top": "12.9%",
+            "bottom": "33.9%",
+            "width": "80.8%",
+            "height": "53.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "50%",
+            "right": "29.3%",
+            "top": "68.3%",
+            "bottom": "72px",
+            "width": "246px",
+            "height": "64px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": true
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_3": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_13",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Primero",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_4": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Segundo",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_5": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Primero",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_6": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_15",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Segundo",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_7": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_16",
+          "bbox": {
+            "left": "90.2%",
+            "right": "10.00px",
+            "top": "88.6%",
+            "bottom": "30.00px",
+            "width": "40.00px",
+            "height": "40.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_8": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "2.1%",
+            "right": "92.2%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "74px",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "13.2%",
+            "right": "57.1%",
+            "top": "0.4%",
+            "bottom": "0.0%",
+            "width": "29.7%",
+            "height": "99.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_12",
+          "bbox": {
+            "left": "53.9%",
+            "right": "0.4%",
+            "top": "50%",
+            "bottom": "23.5%",
+            "width": "45.7%",
+            "height": "53.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": true,
+            "hCenter": false,
+            "lockParent": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_9": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_14",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "5.00px",
+            "right": "5.00px",
+            "top": "5.00px",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "99.8%"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Default"
+    },
+    "layout_10": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": true,
+            "lockParent": false
+          },
+          "bbox": {
+            "left": "50%",
+            "top": 0,
+            "width": "100.00%",
+            "height": "60.00%",
+            "right": "-0.4184%",
+            "bottom": "35.3116%"
+          },
+          "widgetId": "widget_17",
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "bottom": false,
+              "top": true,
+              "width": "AUTO"
+            },
+            "vCenter": false,
+            "hCenter": true,
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false
+          },
+          "bbox": {
+            "left": "50%",
+            "top": "65.0%",
+            "width": "238px",
+            "height": "56px",
+            "right": "119px",
+            "bottom": "18.4%"
+          },
+          "widgetId": "widget_18",
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    }
+  },
+  "exbVersion": "1.14.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://s1.elespanol.com/2023/06/29/madrid/sociedad/775182854_234341157_1706x960.jpg",
+            "originalUrl": "https://s1.elespanol.com/2023/06/29/madrid/sociedad/775182854_234341157_1706x960.jpg",
+            "fileName": "775182854_234341157_1706x960.jpg",
+            "originalName": "775182854_234341157_1706x960.jpg",
+            "imgSourceType": "BY_URL",
+            "cropParam": {
+              "svgViewBox": "0 0 16 16",
+              "svgPath": "M0 0h16v16H0z",
+              "cropShape": "square"
+            }
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_1"
+    },
+    "widget_2": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.14.0",
+      "label": "Panel fijo",
+      "config": null,
+      "id": "widget_2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_2"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "rgba(40,40,40,0.6)",
+          "fillType": "tile"
+        }
+      }
+    },
+    "widget_3": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 70px; color: var(--light); text-shadow: rgba(0, 0, 0, 0.4) -4px -3px 4px, rgba(0, 0, 0, 0.2) -2px -2px 0px;\">ACTIVIDADES</strong><span style=\"font-size: 70px;\">﻿</span></p><p style=\"text-align: center;\"><strong style=\"font-size: 70px; color: var(--danger-300); text-shadow: rgba(0, 0, 0, 0.4) -4px -3px 4px, rgba(0, 0, 0, 0.2) -2px -2px 0px;\">MADRID</strong></p>",
+        "placeholder": "Haga doble clic para editar texto",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "tooltip": {
+          "name": "",
+          "parts": [
+            {
+              "type": "STRING",
+              "exp": "\"\""
+            }
+          ]
+        }
+      },
+      "id": "widget_3",
+      "style": {
+        "borderRadius": null
+      }
+    },
+    "widget_5": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.14.0",
+      "label": "Barra lateral",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "300px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "LEFT",
+          "offsetX": 15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 60,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          }
+        },
+        "defaultState": 1
+      },
+      "id": "widget_5",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_3"
+        },
+        "SECOND": {
+          "LARGE": "layout_4"
+        }
+      }
+    },
+    "widget_6": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.14.0",
+      "label": "Barra lateral 2",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "SECOND",
+        "overlay": false,
+        "size": "339px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": false,
+          "iconSource": 0,
+          "icon": "RIGHT",
+          "offsetX": -15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 60,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "92px 0 0 92px"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "92px 0 0 92px"
+            }
+          },
+          "template": "default"
+        },
+        "defaultState": 1
+      },
+      "id": "widget_6",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_5"
+        },
+        "SECOND": {
+          "LARGE": "layout_6"
+        }
+      }
+    },
+    "widget_8": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.14.0",
+      "label": "Mapa",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canLocate": false,
+          "canCompass": false,
+          "canLayers": true,
+          "canBaseMap": false,
+          "canMeasure": false,
+          "canExtentNavigate": false
+        },
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": null,
+        "layoutIndex": 0,
+        "showPopupUponSelection": true
+      },
+      "id": "widget_8",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_7"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
+        },
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_9": {
+      "uri": "widgets/common/button/",
+      "version": "1.14.0",
+      "label": "Botón",
+      "config": {
+        "functionConfig": {
+          "text": "VISUALIZACIÓN MAPA",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_1",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "var(--danger-300)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--danger-900)",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#fff",
+                "size": "18px",
+                "bold": true
+              },
+              "borderRadius": {
+                "number": [
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "unit": "%"
+              },
+              "iconProps": {
+                "color": "#fff",
+                "size": 14
+              },
+              "boxShadow": {
+                "offsetX": "-1px",
+                "offsetY": "-1px",
+                "blur": "1px",
+                "spread": "1px",
+                "color": "var(--dark-600)"
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "var(--danger-200)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--danger-700)",
+                "width": "1px"
+              },
+              "text": {
+                "color": "var(--danger-700)",
+                "size": "18px",
+                "bold": true
+              },
+              "borderRadius": {
+                "number": [
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "unit": "%"
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_9"
+    },
+    "widget_10": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 2",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_10/1713286375645.png",
+            "originalUrl": "${appResourceUrl}/images/widget_10/1713286375645.png",
+            "fileName": "1713286375645.png",
+            "originalName": "exb_logo.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1713286375645",
+            "isUseCompress": false,
+            "originalWidth": 220,
+            "originalHeight": 220
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_10"
+    },
+    "widget_11": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 2",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 25px;\">ACTIVIDADES MADRID</span></p><p style=\"text-align: center;\"><span style=\"font-size: 18px;\">EN LOS PRÓXMIOS 100 DÍAS</span></p>",
+        "placeholder": "Haga doble clic para editar texto",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_11"
+    },
+    "widget_12": {
+      "uri": "widgets/common/menu/",
+      "version": "1.14.0",
+      "label": "Menú",
+      "config": {
+        "type": "nav",
+        "menuStyle": "default",
+        "vertical": false,
+        "advanced": true,
+        "standard": {
+          "textAlign": "center",
+          "gap": "0px",
+          "showText": true,
+          "showIcon": false,
+          "iconPosition": "start"
+        },
+        "variant": {
+          "size": {
+            "fontSize": "0.875rem",
+            "lineHeight": 1.5,
+            "paddingX": "1rem",
+            "paddingY": "0.25rem"
+          },
+          "gutter": "0.25rem",
+          "icon": {
+            "spacing": "0.5rem"
+          },
+          "root": {
+            "borderRadius": "0.125rem"
+          },
+          "item": {
+            "default": {
+              "color": "var(--primary-100)",
+              "bg": "transparent",
+              "border": {
+                "width": 0
+              },
+              "borderRadius": "100px",
+              "icon": {
+                "size": "16px"
+              },
+              "size": "18px",
+              "bold": true
+            },
+            "hover": {
+              "color": "var(--primary-900)",
+              "borderRadius": "100px",
+              "icon": {
+                "color": "var(--primary)",
+                "size": "16px"
+              },
+              "size": "18px",
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-900)",
+                "width": "1px"
+              },
+              "bg": "var(--primary-200)",
+              "bold": true
+            },
+            "active": {
+              "color": "var(--primary-200)",
+              "borderRadius": "100px",
+              "icon": {
+                "color": "var(--primary)",
+                "size": "16px"
+              },
+              "size": "18px",
+              "bold": true,
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-300)",
+                "width": "2px"
+              },
+              "bg": "var(--primary-900)"
+            },
+            "disabled": {
+              "color": "#989898",
+              "shadow": "none",
+              "borderRadius": "0.125rem"
+            }
+          }
+        },
+        "paper": {
+          "bg": "#f0f0f0",
+          "color": "#050505",
+          "paddingX": 0,
+          "paddingY": 0,
+          "border": {
+            "width": 0,
+            "color": "transparent"
+          }
+        }
+      },
+      "id": "widget_12"
+    },
+    "widget_13": {
+      "uri": "widgets/common/list/",
+      "version": "1.14.0",
+      "label": "Lista",
+      "config": {
+        "maxItems": 100,
+        "space": 10,
+        "verticalSpace": 10,
+        "horizontalSpace": 10,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE5",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "DEFAULT": {
+            "cardSize": {
+              "LARGE": {
+                "width": 660,
+                "height": 88
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 660,
+                "height": 88
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Auto"
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 660,
+                "height": 88
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-500)",
+                "width": "1px"
+              }
+            },
+            "selectionMode": "SINGLE",
+            "listLayout": "Auto"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "isCheckEmptyTemplate": false,
+        "searchFields": [
+          "district",
+          "title"
+        ],
+        "filters": null,
+        "isShowAutoRefresh": false,
+        "layoutType": "ROW",
+        "keepAspectRatio": false,
+        "searchOpen": true,
+        "searchExact": false,
+        "linkParam": {
+          "linkType": "DIALOG",
+          "value": "dialog_1"
+        }
+      },
+      "id": "widget_13",
+      "useDataSourcesEnabled": true,
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "district",
+            "title"
+          ]
+        }
+      ]
+    },
+    "widget_14": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 3",
+      "config": {
+        "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"11cfaf06_ee83_3ef5_5f1d_d27a16e8fac8\" data-dsid=\"dataSource_1-18ed32b8987-layer-2\" data-expression=\"%7B%22name%22%3A%22%7Btitle%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Btitle%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18ed32b8987-layer-2%22%2C%22jimuFieldName%22%3A%22title%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{title}﻿﻿</span>﻿</exp></strong><strong style=\"font-size: 14px;\"> </strong></p><p><exp data-uniqueid=\"66112ce3_9682_ebea_34e3_a71117ce3c52\" data-dsid=\"dataSource_1-18ed32b8987-layer-2\" data-expression=\"%7B%22name%22%3A%22%7Bdistrict%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bdistrict%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18ed32b8987-layer-2%22%2C%22jimuFieldName%22%3A%22district%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{district}﻿﻿</span>﻿</exp>  <exp data-uniqueid=\"4f351ddd_dce2_1886_5802_a77be9a02ffb\" data-dsid=\"dataSource_1-18ed32b8987-layer-2\" data-expression=\"%7B%22name%22%3A%22%7Bdtend%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bdtend%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18ed32b8987-layer-2%22%2C%22jimuFieldName%22%3A%22dtend%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{dtend}﻿﻿</span>﻿</exp> </p>",
+        "placeholder": "Haga doble clic para editar texto",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_14",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "title",
+            "district",
+            "dtend"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_15": {
+      "uri": "widgets/common/chart/",
+      "version": "1.14.0",
+      "label": "Gráfico",
+      "config": {
+        "tools": {
+          "cursorEnable": true
+        },
+        "template": "stacked-bar",
+        "webChart": {
+          "version": "7.3.1",
+          "id": "stacked-bar",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "district"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "OBJECTID",
+                  "outStatisticFieldName": "count_of_OBJECTID"
+                }
+              ],
+              "orderByFields": [
+                "district ASC"
+              ],
+              "where": "free={value}"
+            }
+          },
+          "sortLabelsBy": "originalValue",
+          "rotated": true,
+          "series": [
+            {
+              "type": "barSeries",
+              "id": "0",
+              "name": "0",
+              "x": "district",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "var(--warning-200)",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-700)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "free=0"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "1",
+              "name": "1",
+              "x": "district",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "var(--primary-300)",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-700)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "free=1"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "__other-split-value__",
+              "name": "Undefined",
+              "x": "district",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#DF6B35",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-700)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "free=__other-split-value__"
+              }
+            }
+          ],
+          "axes": [
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle",
+                  "text": ""
+                }
+              },
+              "valueFormat": {
+                "type": "category",
+                "characterLimit": 11
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--light-300)",
+                "width": 0
+              }
+            },
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle",
+                  "text": ""
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--light-300)",
+                "width": 0
+              },
+              "integerOnlyValues": false
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "top"
+          }
+        }
+      },
+      "id": "widget_15",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "district",
+            "OBJECTID",
+            "free"
+          ]
+        }
+      ],
+      "outputDataSources": [
+        "widget_15_ouput"
+      ]
+    },
+    "widget_16": {
+      "uri": "widgets/common/button/",
+      "version": "1.14.0",
+      "label": "Botón 2",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M13.5 5a2.5 2.5 0 1 0-2.308-1.537l-5.621 2.99a3 3 0 1 0-.054 3.182l5.568 3.214a2.5 2.5 0 1 0 .45-.895L5.915 8.71a3.008 3.008 0 0 0 .023-1.32l5.821-3.096c.45.437 1.064.706 1.741.706\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Compartir 3",
+                "color": "var(--dark-800)",
+                "originalName": "filled/editor/share.svg",
+                "path": [
+                  "general",
+                  "share3"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#fff",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#c5c5c5",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#181818",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "number": [
+                  50,
+                  50,
+                  50,
+                  50
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#181818",
+                "size": 14
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#f0f0f0",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          },
+          "useCustom": true
+        }
+      },
+      "id": "widget_16"
+    },
+    "widget_17": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 3",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {},
+          "dynamicUrlType": null,
+          "altTextWithAttachmentName": null,
+          "toolTipWithAttachmentName": null,
+          "isSelectedFromRepeatedDataSourceContext": null,
+          "useDataSourceForMainDataAndViewSelector": null,
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17",
+      "useDataSourcesEnabled": false,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "rootDataSourceId": "dataSource_1",
+          "fields": []
+        }
+      ]
+    },
+    "widget_18": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 4",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">﻿</strong><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"a6ad8615_e5d4_5cce_17ec_33a85420ee19\" data-dsid=\"dataSource_1-18ed32b8987-layer-2\" data-expression=\"%7B%22name%22%3A%22%7Btitle%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Btitle%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18ed32b8987-layer-2-selection%22%2C%22jimuFieldName%22%3A%22title%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{title}﻿</span>﻿</exp></strong> </p>",
+        "placeholder": "<p style=\"text-align: center;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Título</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_18",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "title"
+          ]
+        }
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {
+    "dialog_1": {
+      "id": "dialog_1",
+      "mode": "FIXED",
+      "blockPage": true,
+      "sizeMode": {
+        "LARGE": {
+          "position": "CENTER",
+          "width": "480px",
+          "height": "339px"
+        }
+      },
+      "closeWhenClickOverlay": true,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fill",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "var(--dark-900)",
+      "layout": {
+        "LARGE": "layout_10"
+      },
+      "index": 0,
+      "isSplash": false,
+      "border": {
+        "color": "var(--light-300)",
+        "type": "solid",
+        "width": "2px"
+      },
+      "label": "Ventana"
+    }
+  },
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Mapa Actividades Experience-Ivan",
+      "itemId": "626efcbd137148af8ee0bb2fff8ce484",
+      "portalUrl": "https://educacionesri.maps.arcgis.com",
+      "childDataSourceJsons": {
+        "18ed3344781-layer-41": {
+          "id": "dataSource_1-18ed3344781-layer-41",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Limites administrativos Ayto Madrid",
+          "childDataSourceJsons": {
+            "18ed334489b-layer-44": {
+              "id": "dataSource_1-18ed3344781-layer-41-18ed334489b-layer-44",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "DISTRITOS AYTO MADRID",
+              "url": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Límites_administrativos_oficiales_del_Ayuntamiento_de_Madrid/FeatureServer/1",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "ad6a2ca7489d4d48aa15523a8d811845",
+              "layerId": "1",
+              "label": "DISTRITOS AYTO MADRID",
+              "isHidden": true
+            },
+            "18ed334489b-layer-45": {
+              "id": "dataSource_1-18ed3344781-layer-41-18ed334489b-layer-45",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "BARRIOS AYTO MADRID",
+              "url": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Límites_administrativos_oficiales_del_Ayuntamiento_de_Madrid/FeatureServer/0",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "ad6a2ca7489d4d48aa15523a8d811845",
+              "layerId": "0"
+            },
+            "18ed334489a-layer-43": {
+              "id": "dataSource_1-18ed3344781-layer-41-18ed334489a-layer-43",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "SECCIONES CENSALES AYTO MADRID",
+              "url": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Límites_administrativos_oficiales_del_Ayuntamiento_de_Madrid/FeatureServer/2",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "ad6a2ca7489d4d48aa15523a8d811845",
+              "layerId": "2",
+              "label": "SECCIONES CENSALES AYTO MADRID",
+              "isHidden": true
+            },
+            "18ed3344898-layer-42": {
+              "id": "dataSource_1-18ed3344781-layer-41-18ed3344898-layer-42",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "TERMINO MPAL AYTO MADRID",
+              "url": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Límites_administrativos_oficiales_del_Ayuntamiento_de_Madrid/FeatureServer/3",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "ad6a2ca7489d4d48aa15523a8d811845",
+              "layerId": "3"
+            }
+          }
+        },
+        "18ed32b8987-layer-2": {
+          "id": "dataSource_1-18ed32b8987-layer-2",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "Actividades Madrid 100 días (Vista)",
+          "url": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Actividades_Madrid_100_días_(Vista)/FeatureServer/0",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "333b57bf795e4cf68816fcd723cb7382",
+          "layerId": "0"
+        }
+      }
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "WEB_SCENE",
+      "sourceLabel": "Escena actividades-Ivan",
+      "itemId": "81732cf5a1d043348e61b9d8bc8cf263",
+      "portalUrl": "https://educacionesri.maps.arcgis.com"
+    },
+    "widget_15_ouput": {
+      "id": "widget_15_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "Estadísticas de Gráfico",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "__outputid__",
+        "label": "Estadísticas de Gráfico",
+        "fields": {
+          "__outputid__": {
+            "jimuName": "__outputid__",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "__outputid__"
+          },
+          "district": {
+            "jimuName": "district",
+            "name": "district",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "district",
+            "format": null,
+            "originFields": [
+              "district"
+            ]
+          },
+          "count_of_OBJECTID_of_0": {
+            "jimuName": "count_of_OBJECTID_of_0",
+            "name": "count_of_OBJECTID_of_0",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of 0",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "free"
+            ]
+          },
+          "count_of_OBJECTID_of_1": {
+            "jimuName": "count_of_OBJECTID_of_1",
+            "name": "count_of_OBJECTID_of_1",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of 1",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "free"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "messageConfigs": {
+    "messageConfig_1": {
+      "id": "messageConfig_1",
+      "widgetId": "widget_13",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_8-flash-1713295918334",
+          "widgetId": "widget_8",
+          "messageWidgetId": "widget_13",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+              "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+              "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.14.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+              "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+              "rootDataSourceId": "dataSource_1"
+            },
+            {
+              "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+              "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+              "rootDataSourceId": "dataSource_1",
+              "fields": []
+            }
+          ]
+        },
+        {
+          "actionId": "widget_8-zoomToFeature-1713296124609",
+          "widgetId": "widget_8",
+          "messageWidgetId": "widget_13",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+              "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18ed32b8987-layer-2",
+                "mainDataSourceId": "dataSource_1-18ed32b8987-layer-2",
+                "rootDataSourceId": "dataSource_1"
+              }
+            ]
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "widgetId": "widget_16",
+      "messageType": "BUTTON_CLICK",
+      "actions": [
+        {
+          "actionId": "widget_6-toggleSidebar-1713351216588",
+          "widgetId": "widget_6",
+          "messageWidgetId": "widget_16",
+          "actionName": "toggleSidebar",
+          "description": null,
+          "version": "1.14.0"
+        }
+      ]
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://educacionesri.maps.arcgis.com"
+  },
+  "sharedThemeVariables": {
+    "header": {},
+    "body": {},
+    "button": {},
+    "logo": {
+      "small": null,
+      "link": null
+    }
+  },
+  "originExbVersion": "1.14.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    },
+    {
+      "page_1": []
+    },
+    {
+      "page_2": [
+        "page_3"
+      ]
+    }
+  ],
+  "customTheme": {},
+  "timestamp": 1713354923803,
+  "header": {
+    "layout": {
+      "LARGE": "layout_8"
+    },
+    "height": {
+      "LARGE": 72
+    },
+    "backgroundColor": "var(--danger-600)"
+  }
+}
